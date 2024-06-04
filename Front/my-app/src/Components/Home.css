@@ -81,7 +81,7 @@ p {
 .card {
   background-color: #333;
   border: none;
-  flex: 1 1 calc(25% - 1rem); /* Adjust width to fit 4 cards in one row */
+  flex: 1 1 calc(25% - 1rem); 
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
@@ -89,13 +89,13 @@ p {
 }
 
 .card:hover {
-  transform: scale(1.05); /* Hover effect to enlarge the card slightly */
+  transform: scale(1.05); 
 }
 
 .card-img-top {
   width: 100%;
-  height: 200px; /* Ensure all images have the same height */
-  object-fit: cover; /* Ensure images maintain their aspect ratio and cover the area */
+  height: 200px; 
+  object-fit: cover; 
   cursor: pointer;
 }
 
